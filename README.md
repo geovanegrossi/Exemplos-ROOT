@@ -4,19 +4,19 @@ Repositório com alguns exemplos básicos de ROOT, o programa de análise de dad
 Repository with basic ROOT examples for educational purposes.
 
 ```bash
-Exemplo 1: Gráfico de duas variáveis X-Y com suas respectivas incertezas e um ajuste linear.
+Exemplo 1: Gráfico de duas variáveis X-Y com suas respectivas incertezas e um ajuste linear. (plotxytxt.C)
+``
+
+```bash
+Exemplo 2: Histograma de uma variável com incerteza nos canais e fit gaussiano. (Hist_1d.C)
 ```
 
 ```bash
-Exemplo 2: Histograma de uma variável com incerteza nos canais e fit gaussiano 
+Exemplo 3: Multiplas curvas de duas variáveis desenhadas no mesmo Canvas. (multiplotXYtxt.C)
 ```
 
 ```bash
-Exemplo 3: Multiplas curvas de duas variáveis desenhadas no mesmo Canvas. 
-```
-
-```bash
-Exemplo 4: Como criar uma TTree para análise de dados a partir de um arquivo txt de multiplas colunas. 
+Exemplo 4: Criando um arquivo .root contendo uma TTree para análise de dados a partir de um arquivo txt de multiplas colunas. 
 ```
 
 
