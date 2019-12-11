@@ -5,7 +5,7 @@ Repository with basic ROOT examples for educational purposes.
 
 ```bash
 Exemplo 1: Gráfico de duas variáveis X-Y com suas respectivas incertezas e um ajuste linear. (plotxytxt.C)
-``
+```
 
 ```bash
 Exemplo 2: Histograma de uma variável com incerteza nos canais e fit gaussiano. (Hist_1d.C)
