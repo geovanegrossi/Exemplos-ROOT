@@ -7,15 +7,18 @@ Repository with basic ROOT examples for educational purposes.
 Exemplo 1: Gráfico de duas variáveis X-Y com suas respectivas incertezas e um ajuste linear.
 ```
 
-
 ```bash
 Exemplo 2: Histograma de uma variável com incerteza nos canais e fit gaussiano 
 ```
 
-
 ```bash
 Exemplo 3: Multiplas curvas de duas variáveis desenhadas no mesmo Canvas. 
 ```
+
+```bash
+Exemplo 4: Como criar uma TTree para análise de dados a partir de um arquivo txt de multiplas colunas. 
+```
+
 
 Após instalação, vá até o diretório dos exemplos e abra o root com o comando no terminal:
 
