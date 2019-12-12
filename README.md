@@ -16,12 +16,6 @@ Exemplo 2: Histograma de uma variável com incerteza nos canais e fit gaussiano.
 Exemplo 3: Multiplas curvas de duas variáveis desenhadas no mesmo Canvas. (multiplotXYtxt.C)
 ```
 
-
-```bash
-Exemplo 4: Criando um arquivo .root contendo uma TTree para análise de dados a partir de um arquivo txt de multiplas colunas. 
-```
-
-
 Após instalação, vá até o diretório dos exemplos e abra o root com o comando no terminal:
 
 ```bash
@@ -33,3 +27,25 @@ Execute os exemplos com o seguinte comando:
 ```bash
 .x nomedoexemplo.C
 ```
+
+
+# Conversão de arquivos .txt em .root
+
+No diretório txt_to_root é possível encontrar um programa para transformar um arquivo .txt de multiplas colunas em um arquivo .root contendo uma TTree para análise de dados.
+
+Caso queira alterar o número de branchs e seu nome faça isso no arquivo txt_to_root.cxx
+
+Para compilar o executável faça:
+
+```bash
+make
+```
+
+Para rodar o programa:
+
+```bash
+./txt2root arquivo.txt
+```
+
+
+
