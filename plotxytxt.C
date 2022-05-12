@@ -1,5 +1,10 @@
 void plotxytxt()
 {
+// 	gStyle->SetOptStat(0);	//Fontes e palette que eu gosto.
+// 	gStyle->SetTitleFont(132, "xyz");
+// 	gStyle->SetTitleFont(132, " ");
+// 	gStyle->SetLabelFont(132, "xyz");
+// 	gStyle->SetPalette(55);
 
 	TCanvas *c1 = new TCanvas("c1","c1",1200, 1200); //Cria o quadro para desenharmos o gráfico
 	TGraphErrors *gr1 = new TGraphErrors("dados_exemplo1.txt"); //Abre um arquivo txt com valores de x, y, sx e sy separados por espaço
